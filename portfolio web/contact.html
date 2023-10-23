@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaka Rasile - Web developer, programmer, ML expert</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="side_bar side_bar_go">
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/intro.html">My Intro</a></li>
+                    <li><a href="/services.html">Services</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main_content">
+            <div class="hamburger">
+                <img class="ham" src="ham.png" alt="" width="30px"">
+                <img class="cross" src="cross.png" alt="" width="30px">
+            </div>
+            <div class="contact_form">
+                <h1>Contact me for any work/general Enquiry</h1>
+                <form>
+                    <div class="form-group">
+                      <label for="client_email">Name</label>
+                      <input type="name" class="form-control" id="client_name" aria-describedby="emailHelp" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                      <label for="client_email">Email address</label>
+                      <input type="email" class="form-control" id="client_email" aria-describedby="emailHelp" placeholder="Enter email">
+                      <div id="emailHelp" class="form-text text-muted">We'll never share your email and phone with anyone else.</div>
+                    </div>
+                    <div class="form-group">
+                      <label for="client_phone">Phone</label>
+                      <input type="phone" class="form-control" id="client_phone" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <label for="client_email">Enquiry</label>
+                        <input type="enquiry" class="form-control" id="Enquiry" aria-describedby="emailHelp" placeholder="Enter your Enquiry">
+                    </div>
+                    <div id="radio">
+                        <input type="checkbox" class="form-check-input" id="is_client">
+                        <label class="form-check-label" for="is_client">I want to work on a project with you</label>
+                    </div>
+                    <button type="submit" class="btn" id="contact_btn">Submit</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
